@@ -87,7 +87,10 @@ The companion research paper is included as [`MAIN.pdf`](./MAIN.pdf).
 | XGBoost | 0.7616 ± 0.0086 | 0.7619 ± 0.0235 | **0.6294 ± 0.0138** | 0.8448 ± 0.0046 |
  
 > **Key finding:** Logistic Regression achieved the best overall performance (CV ROC-AUC = 0.8459 ± 0.0054). All pairwise differences were statistically significant at α = 0.05 via McNemar's test.
- 
+
+
+ ![Uploading roc_curves_combined.png…]()
+
 ---
  
 ## 🔑 Key Churn Drivers (Feature Importance)
@@ -102,7 +105,10 @@ Based on standardized Logistic Regression coefficients:
 | **Contract — One Year** | ↓ Negative | One-year plans also substantially reduce churn vs. month-to-month |
 | **Monthly Charges** | ↑ Positive | Higher bills correlate with increased churn probability |
 | **PaymentMethod — Electronic Check** | ↑ Positive | Electronic check users churn at 45.3% vs. ~16% for auto-payment users |
- 
+
+
+ <img width="1350" height="900" alt="feature_importance_LR" src="https://github.com/user-attachments/assets/ec441e4c-930a-45c3-855a-069bd653342d" />
+
 ---
  
 ## 💡 Business Recommendations
