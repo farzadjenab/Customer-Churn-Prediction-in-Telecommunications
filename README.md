@@ -132,8 +132,8 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn
 ### Run the Notebook
  
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/farzadjenab/Customer-Churn-Prediction-in-Telecommunications.git
+cd Customer-Churn-Prediction-in-Telecommunications
 jupyter notebook improved_churn_analysis.ipynb
 ```
  
