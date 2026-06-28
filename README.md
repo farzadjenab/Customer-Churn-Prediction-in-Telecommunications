@@ -89,7 +89,8 @@ The companion research paper is included as [`MAIN.pdf`](./MAIN.pdf).
 > **Key finding:** Logistic Regression achieved the best overall performance (CV ROC-AUC = 0.8459 ± 0.0054). All pairwise differences were statistically significant at α = 0.05 via McNemar's test.
 
 
- ![Uploading roc_curves_combined.png…]()
+<img width="1200" height="900" alt="roc_curves_combined" src="https://github.com/user-attachments/assets/de01347f-fb5b-4e24-a0c1-cb06517bf680" />
+
 
 ---
  
